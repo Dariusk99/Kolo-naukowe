@@ -16,8 +16,8 @@ const int SERVO_PIN = 32;
 int currentServoPos = 90;
 int servoDirection = 0;
 unsigned long lastServoMove = 0;
-const int SERVO_STEP = 2;
-const int SERVO_DELAY = 6;
+const int SERVO_STEP = 1;
+const int SERVO_DELAY = 2;
 
 // Piny sterujące silnikami (IN1 i IN2 ustalają kierunek obrotu silnika, PWM na ten pin wysyłany jest sygnał odpowiedzialny za prędkość silnika)
 const int AIN1 = 26;
